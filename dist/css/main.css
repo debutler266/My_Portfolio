@@ -209,6 +209,9 @@ main {
       color: #000; }
       .boxes div:hover span {
         color: #000; }
+  .boxes i {
+    color: #eece1a;
+    display: block; }
 
 .btn, .btn-dark, .btn-light {
   display: block;

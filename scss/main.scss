@@ -156,6 +156,15 @@ img {
       }
     }
   }
+  i {
+    color: $secondary-color;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    &:hover
+    color: #333;
+  }
 }
 
 
