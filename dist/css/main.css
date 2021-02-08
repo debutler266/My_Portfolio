@@ -211,31 +211,31 @@ main {
         color: #000; }
   .boxes i {
     color: #eece1a;
-    display: block; }
-
-.btn, .btn-dark, .btn-light {
-  display: block;
-  padding: 0.5rem 1rem;
-  border: 0;
-  margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
-    color: #000; }
-
-.btn-dark {
-  background: black;
-  color: #fff; }
-
-.btn-light {
-  background: #cecece;
-  color: #333; }
-
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #353535;
-  color: #fff;
-  height: 60px; }
+    display: inline-block;
+    align-items: center;
+    text-align: center; }
+    .boxes i:hover {
+      color: #333; }
+  .boxes .btn, .boxes .btn-dark, .boxes .btn-light {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem; }
+    .boxes .btn:hover, .boxes .btn-dark:hover, .boxes .btn-light:hover {
+      background: #eece1a;
+      color: #000; }
+  .boxes .btn-dark {
+    background: black;
+    color: #fff; }
+  .boxes .btn-light {
+    background: #cecece;
+    color: #333; }
+  .boxes #main-footer {
+    text-align: center;
+    padding: 1rem;
+    background: #353535;
+    color: #fff;
+    height: 60px; }
 
 @media screen and (min-width: 1171px) {
   .projects {

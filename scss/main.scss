@@ -161,11 +161,11 @@ img {
     display: inline-block;
     align-items: center;
     text-align: center;
-
-    &:hover
+    &:hover {
     color: #333;
   }
 }
+
 
 
 // Button styles... styles for Dark/Light extended to orginal btn class
@@ -199,6 +199,6 @@ img {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
+  }
 }
-
 @import 'mobile';
