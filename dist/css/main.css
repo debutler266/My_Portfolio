@@ -190,6 +190,9 @@ main {
       opacity: 0.5;
       border-color: #eece1a;
       transition: all 0.9s ease-out; }
+      .projects i:hover {
+        color: #eece1a;
+      }
 
 .boxes {
   display: flex;
