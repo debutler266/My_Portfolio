@@ -38,6 +38,14 @@ a {
   text-decoration: none;
 }
 
+ .fab:hover {
+  color: $secondary-color;
+}
+
+.fas:hover {
+ color: $secondary-color;
+}
+
 header {
   position: fixed; //header will always remain at top of page //
   z-index: 2;

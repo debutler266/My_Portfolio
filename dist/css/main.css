@@ -1,7 +1,7 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
+  right: 17px;
   top: 35px;
   cursor: pointer;
   transition: all 0.9s ease-out; }
@@ -127,6 +127,12 @@ a {
   color: #fff;
   text-decoration: none; }
 
+.fab:hover {
+  color: #eece1a; }
+
+.fas:hover {
+  color: #eece1a; }
+
 header {
   position: fixed;
   z-index: 2;
@@ -190,9 +196,6 @@ main {
       opacity: 0.5;
       border-color: #eece1a;
       transition: all 0.9s ease-out; }
-      .projects i:hover {
-        color: #eece1a;
-      }
 
 .boxes {
   display: flex;
